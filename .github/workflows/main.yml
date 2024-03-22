@@ -26,9 +26,6 @@ jobs:
 
       - run: npm cache clean --force
       - run: npm install --legacy-peer-deps
-      - run: npm audit fix --force
-      - run: npm audit fix --force
-      - run: npm audit fix --force
       - run: npm install -g @angular/cli > /dev/null
       - run: ng build --base-href=/my-angular-demo/
       
